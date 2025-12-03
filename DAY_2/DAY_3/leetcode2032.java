@@ -1,3 +1,4 @@
+package DAY_3;
 /* Leetcode problem number 2032
 Name = Kushawaha Ankitkumar Vinodkumar
 Res. No. = 2025CA054
