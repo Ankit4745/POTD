@@ -1,4 +1,4 @@
-
+package DAY_15;
 import java.util.Scanner;
 
 public class codeforces514A {
