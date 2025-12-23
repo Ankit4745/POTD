@@ -12,7 +12,7 @@ public class codeforces1831A {
             arr[i] = sc.nextInt();
         }
         for(int i=0;i<n;i++){
-            System.out.print(((n-1)+arr[i])+ " ");
+            System.out.print(((n+1)-arr[i])+ " ");
         }
         System.out.println();
     }
