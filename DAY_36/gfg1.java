@@ -2,25 +2,31 @@ package DAY_36;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class gfg1 {
 class Solution {
     public int[] singleNum(int[] arr) {
-        int[] ans = new int[2];
-        int n = arr.length;
-        HashMap<Integer,Integer> map = new HashMap<>();
-        for(int i=0;i<n;i++){
-            map.put(arr[i],map.getOrDefault(arr[i],0)+1);
+       HashSet<Integer> list = new HashSet<>();
+
+        for(int i=0;i<arr.length;i++){
+            if(!list.contains(arr[i]))
+                list.add(arr[i]);
+                 else {
+                list.remove(arr[i]);
+            }
+            }
+           
+              int[] result = new int[list.size()];
+        int idx = 0;
+        for (int x : list) {
+            result[idx++] = x;
         }
-        int k = 0;
-        for(int i=0;i<n;i++){
-            int freq = map.get(arr[i]);
-            if(freq==1) ans[k++]=arr[i];
-        }
-        Arrays.sort(ans);
-        return ans;
+        Arrays.sort(result);
+    return result;
+    
     }
+}
 }
 
     
-}
