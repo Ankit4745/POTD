@@ -1,8 +1,6 @@
 package DAY_36;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 
 public class gfg1 {
 class Solution {
