@@ -1,0 +1,21 @@
+package DAY_40;
+
+public class leetcode283 {
+    class Solution {
+    public void moveZeroes(int[] nums) {
+        int n = nums.length;
+        int i=0;
+        int j=0;
+        while(j<n){
+            if(nums[j] != 0){
+                int temp = nums[i];
+                 nums[i] = nums[j];
+                 nums[j] = temp;
+                i++;
+            }
+            j++;
+        }
+        
+    }
+}
+}
