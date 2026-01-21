@@ -1,11 +1,7 @@
 package DAY_37;
  import java.util.Scanner;
 public class codeforces579A {
-   
-
-
-
-     public static void main(String[] args) {
+        public static void main(String[] args) {
    Scanner sc = new Scanner(System.in);
    int test = sc.nextInt();
     String s = Integer.toBinaryString(test);
@@ -14,7 +10,5 @@ public class codeforces579A {
         if(s.charAt(i) == '1') count++;
     }
     System.out.println(count);
-   
      }
-
 }
