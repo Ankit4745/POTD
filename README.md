@@ -6,7 +6,7 @@ All solutions are diligently organized by the day they were solved, keeping trac
 
 ## ✨ About This Repository
 
-| Key Feature | Details |
+| Key Feature |  Details  |
 | :--- | :--- |
 | **Purpose** | To document daily solutions to DSA and CP questions assigned by my senior. |
 | **Topics** | Covers a variety of fundamental and advanced DSA and CP concepts. |
