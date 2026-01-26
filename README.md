@@ -1,6 +1,6 @@
 # 🌟  POTD: Daily Data Structures & Algorithms Practice
 
-This repository serves as a dedicated log for the **Problem of the Day (POTD)** questions provided by my senior. It is a commitment to consistent practice in **Data Structures and Algorithms (DSA)** and **Competitive Programming (CP)**, which has been invaluable for skill development.
+This repository serves as a dedicated log for the **Problem of the Day (POTD)** questions provided by my senior. It is a commitment to consistent practice in **Data Structures and Algorithms (DSA)** and **Competitive Programming (CP)** , which has been invaluable for skill development.
 
 All solutions are diligently organized by the day they were solved, keeping track of the learning journey.
 
